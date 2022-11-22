@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 10px;
+}
+header{
+  color: white;
+  background-image: url("../img/espacio.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 50rem;
+}
+
+.presentacion img{
+  max-width: 50%;
+  margin-bottom: 1rem;
+}
+form{
+  max-width: 90%;
+  margin: 0 auto;
+  border: 1px solid rgb(43, 42, 42);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+a{
+  text-decoration: none;
+}
+a:not(.enlace-principal):hover{
+  color: rgb(141, 141, 148) !important;
+}
+.header-container{
+  font-size: 2rem;
+  margin-top: 12rem;
+}
+.familia,.estudios{
+  background-color: #f2f2f2;
+}
+.footer__contenedor{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.error{
+  color: red;
+}
+.correcto{
+  color: green;
+}
+
+@media (min-width:1140px){
+  header{
+    height: 45rem;
+  }
+}
+
+@media (min-width:992px){
+ form{
+  max-width: 50%;
+ }
+}

@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 10px;
+}
+header{
+  color: white;
+  background-image: url("../img/espacio.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 50rem;
+}
+
+.presentacion img{
+  max-width: 70%;
+  margin-bottom: 1rem;
+}
+form{
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid rgb(43, 42, 42);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+a{
+  text-decoration: none;
+}
+
+a:not(.enlace-principal):hover{
+  color: rgb(141, 141, 148) !important;
+}
+.presentacion__container{
+  border-bottom: 1px solid #4c4c4c;
+}
+.header-container{
+  font-size: 2rem;
+  margin-top: 12rem;
+}
+
+.footer__contenedor{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width:576px){
+  .presentacion img{
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width:1140px){
+  header{
+    height: 45rem;
+  }
+}
+

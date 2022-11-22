@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 10px;
+  background-color: #f2f2f2;
+}
+header{
+  color: white;
+  background-image: url("../img/espacio.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 50rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:not(.enlace-principal):hover{
+  color: rgb(141, 141, 148) !important;
+}
+.header-container{
+  font-size: 2rem;
+  margin-top: 12rem;
+}
+.footer__contenedor{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+@media (min-width:1140px){
+  header{
+    height: 45rem;
+  }
+}
